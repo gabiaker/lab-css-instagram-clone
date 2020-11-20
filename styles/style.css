@@ -59,6 +59,8 @@ body {
 
 
 .footer ul {
+  width: fit-content;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
@@ -66,7 +68,13 @@ body {
 }
 
 .footer li {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 10px;
   display: flex;
-  
-  border: 1px solid red;
+}
+
+.footer #copy-right {
+  font-weight: lighter;
 }
